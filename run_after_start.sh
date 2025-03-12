@@ -10,3 +10,5 @@ if ! grep -q "development_repo: /usr/src/homeassistant/frontend/" "$CONFIG_FILE"
     echo "Adding development_repo to frontend section in configuration.yaml."
     sed -i '/frontend:/a \ \ development_repo: /usr/src/homeassistant/frontend/' "$CONFIG_FILE"
 fi
+
+# this is for demo
